@@ -32,9 +32,9 @@ OPENAI_API_KEY="sua_chave_da_openai"
 TAVILY_API_KEY="sua_chave_do_tavily"
 ```
 
-<p>Para criar uma conta na LangGraph, acesse este site:<a>[https://www.langchain.com/langgraph]</a></p>
-<p>Para criar uma conta na OpenAI, acesse este site:<a>[https://openai.com](https://openai.com)</a></p>
-<p>Para criar uma conta na Tavily, acesse este site:<a>[https://tavily.com]</a></p>
+<p>Para criar uma conta na LangGraph, acesse este site:<a href=https://www.langchain.com/langgraph></a></p>
+<p>Para criar uma conta na OpenAI, acesse este site:<a href=https://openai.com></a></p>
+<p>Para criar uma conta na Tavily, acesse este site:<a href=https://tavily.com></a></p>
 
 ## Compile e rode o projeto
 
@@ -45,4 +45,4 @@ $ npm run start
 
 <p>Para testar o projeto, vá no Postman (ou outro de sua preferência) e aplique a sua pergunta da seguinte forma:</p>
 
-GET [http://localhost:3000/agent/ask?q=SuaPergunta]
+GET http://localhost:3000/agent/ask?q=SuaPergunta
